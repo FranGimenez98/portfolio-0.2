@@ -58,7 +58,7 @@ const Form = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ type: "spring", delay: 0.8 }}
-      offset={10}
+      offset={20}
     >
       <Input
         placeholder="Enter your name"
