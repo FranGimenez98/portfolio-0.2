@@ -7,7 +7,7 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  padding-top: 1rem;
+  padding-top: 3rem;
 
   h2 {
     color: ${(props) => props.theme.primary};
