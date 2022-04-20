@@ -12,6 +12,7 @@ const About = () => {
   return (
     <Section id="about">
       <motion.span
+      
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ type: "spring", delay: 0.2 }}
