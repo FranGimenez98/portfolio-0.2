@@ -12,7 +12,6 @@ export const Section = styled(motion.section)`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding-bottom: 3rem;
   h2 {
     color: ${(props) => props.theme.primary};
   }
