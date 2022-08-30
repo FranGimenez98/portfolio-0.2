@@ -11,7 +11,8 @@ import {
 import "@splidejs/react-splide/css";
 import movie from "../../assets/movies.png";
 import doggies from "../../assets/Doggies.png";
-import netflix from "../../assets/netflix.png"
+import netflix from "../../assets/netflix.png";
+import ecommerce from "../../assets/ecommerce.png";
 import { IoMdCode, IoIosPlay } from "react-icons/io";
 import { motion } from "framer-motion";
 
@@ -52,6 +53,31 @@ const Works = () => {
               },
             }}
           >
+            <SplideSlide>
+              <WorkContainer>
+                <Image src={ecommerce} alt="" />
+                <h3>NextJS Ecommerce</h3>
+                <DemoContainer>
+                  <a
+                    href="https://fruits-nextjs-ecommerc.vercel.app/"
+                    target="_blank"
+                  >
+                    <button>
+                      Demo <IoIosPlay className="arrow" />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/FranGimenez98/fruits-nextjs-ecommerc"
+                    target="_blank"
+                  >
+                    <button>
+                      Code
+                      <IoMdCode className="arrow" />
+                    </button>
+                  </a>
+                </DemoContainer>
+              </WorkContainer>
+            </SplideSlide>
             <SplideSlide>
               <WorkContainer>
                 <Image src={movie} alt="" />
