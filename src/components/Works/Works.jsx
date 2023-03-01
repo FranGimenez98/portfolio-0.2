@@ -61,7 +61,7 @@ const Works = () => {
                 <h3>Vook social web app</h3>
                 <DemoContainer>
                   <a
-                    href="https://vook.vercel.app/"
+                    href="https://vook.up.railway.app/"
                     target="_blank"
                   >
                     <button>
