@@ -21,10 +21,10 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   max-width: 90%;
-  ;
 
   @media(min-width: 968px){
-    max-width: 50%
+    max-width: 70%;
+    padding-left: 2rem;
   }
 `
 
@@ -36,6 +36,7 @@ export const WorkContainer = styled.div`
   border-radius: 1rem;
   box-shadow: ${(props) => props.theme.boxShadow};
   margin-bottom: 2rem;
+  margin-top: 1rem;
   padding: 5px;
   cursor: grab;
 

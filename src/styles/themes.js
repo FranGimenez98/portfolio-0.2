@@ -9,6 +9,7 @@ const lightTheme = {
     boxShadow: '0 10px 20px 0 rgba(0,0,0,.07)',
     socials: '#80ED99',
     hover: '#4aff73',
+
 };
 
 const darkTheme = {
@@ -21,7 +22,8 @@ const darkTheme = {
 
     boxShadow: 'null',
     socials: '#C7F9CC',
-    hover: '#C7F9CC'
+    hover: '#C7F9CC',
+
 };
 
 export const themes = {

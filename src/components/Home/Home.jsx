@@ -16,7 +16,8 @@ import {
   Section,
 } from "./StyledHome";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import cv from '../../assets/CV.pdf'
+import cv from "../../assets/cv_esp.pdf";
+import { Link as LinkS } from "react-scroll/modules"
 
 const Home = () => {
   return (
@@ -51,15 +52,25 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ type: "spring", delay: 3.5, bounce: 0.5 }}
             >
-              <a href={cv} download target="_blank">Download CV</a>
+              <a href={cv} download target="_blank">
+                Download CV
+              </a>
             </ButtonCV>
-            <ButtonAbout
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ type: "spring", delay: 3.5, bounce: 0.5 }}
+            <LinkS
+              to="about"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
             >
-              About
-            </ButtonAbout>
+              <ButtonAbout
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ type: "spring", delay: 3.5, bounce: 0.5 }}
+              >
+                About
+              </ButtonAbout>
+            </LinkS>
           </HomeButtons>
         </HomeData>
         <HomeImageContainer>

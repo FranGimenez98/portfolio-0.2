@@ -13,6 +13,8 @@ import movie from "../../assets/movies.png";
 import doggies from "../../assets/Doggies.png";
 import netflix from "../../assets/netflix.png";
 import ecommerce from "../../assets/ecommerce.png";
+import pokenext from "../../assets/pokenext.png";
+import vook from "../../assets/vook.png";
 import { IoMdCode, IoIosPlay } from "react-icons/io";
 import { motion } from "framer-motion";
 
@@ -41,10 +43,10 @@ const Works = () => {
         >
           <Splide
             options={{
-              arrows: false,
+              arrows: true,
               pagination: false,
               drag: "free",
-              perPage: 2,
+              perPage: 3,
               gap: "10px",
               breakpoints: {
                 640: {
@@ -53,6 +55,31 @@ const Works = () => {
               },
             }}
           >
+            <SplideSlide>
+              <WorkContainer>
+                <Image src={vook} alt="" />
+                <h3>Vook social web app</h3>
+                <DemoContainer>
+                  <a
+                    href="https://vook.vercel.app/"
+                    target="_blank"
+                  >
+                    <button>
+                      Demo <IoIosPlay className="arrow" />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/FranGimenez98/vook"
+                    target="_blank"
+                  >
+                    <button>
+                      Code
+                      <IoMdCode className="arrow" />
+                    </button>
+                  </a>
+                </DemoContainer>
+              </WorkContainer>
+            </SplideSlide>
             <SplideSlide>
               <WorkContainer>
                 <Image src={ecommerce} alt="" />
@@ -68,6 +95,31 @@ const Works = () => {
                   </a>
                   <a
                     href="https://github.com/FranGimenez98/fruits-nextjs-ecommerc"
+                    target="_blank"
+                  >
+                    <button>
+                      Code
+                      <IoMdCode className="arrow" />
+                    </button>
+                  </a>
+                </DemoContainer>
+              </WorkContainer>
+            </SplideSlide>
+            <SplideSlide>
+              <WorkContainer>
+                <Image src={pokenext} alt="" />
+                <h3>PokeNext</h3>
+                <DemoContainer>
+                  <a
+                    href="https://poke-next-woad.vercel.app/"
+                    target="_blank"
+                  >
+                    <button>
+                      Demo <IoIosPlay className="arrow" />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/FranGimenez98/pokeNext"
                     target="_blank"
                   >
                     <button>

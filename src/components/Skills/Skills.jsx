@@ -114,7 +114,22 @@ const Skills = () => {
               </SkillsData>
               <SkillsData>
                 <div>
+                  <p>MongoDB</p>
+                </div>
+              </SkillsData>
+              <SkillsData>
+                <div>
                   <p>Sequelize</p>
+                </div>
+              </SkillsData>
+              <SkillsData>
+                <div>
+                  <p>Prisma</p>
+                </div>
+              </SkillsData>
+              <SkillsData>
+                <div>
+                  <p>Go</p>
                 </div>
               </SkillsData>
             </SkillsGroup>
