@@ -16,7 +16,7 @@ import {
   Section,
 } from "./StyledHome";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import cv from "../../assets/cv_esp.pdf";
+import cv from "../../assets/CV_francisco_gimenez.pdf";
 import { Link as LinkS } from "react-scroll/modules"
 
 const Home = () => {
