@@ -45,6 +45,8 @@ const About = () => {
           >
             <RiComputerLine className="computer" />
             <h3>Experience</h3>
+            <h4>Backend Developer</h4>
+            <span>In weTechn startup.</span>
             <h4>2 Year</h4>
             <span>As a self-taught developer.</span>
             <h4>4 Months</h4>

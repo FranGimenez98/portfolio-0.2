@@ -55,6 +55,8 @@ export const Image = styled.img`
   height: 10rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  object-fit: cover;
+  background-position: center;
 `;
 
 export const DemoContainer = styled.div`
@@ -66,6 +68,8 @@ export const DemoContainer = styled.div`
   span {
     color: ${(props) => props.theme.font};
   }
+
+
 
   .arrow {
     color: ${(props) => props.theme.background};
@@ -99,3 +103,4 @@ export const DemoContainer = styled.div`
 export const Container2 = styled(motion.div)`
   max-width: 100%;
 `
+
