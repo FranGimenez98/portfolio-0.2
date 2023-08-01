@@ -12,6 +12,7 @@ import "@splidejs/react-splide/css";
 import movie from "../../assets/movies.png";
 import doggies from "../../assets/Doggies.png";
 import netflix from "../../assets/netflix.png";
+import bazz from "../../assets/bazz.png";
 import ecommerce from "../../assets/ecommerce.png";
 import pokenext from "../../assets/pokenext.png";
 import vook from "../../assets/vook.png";
@@ -55,6 +56,31 @@ const Works = () => {
               },
             }}
           >
+            <SplideSlide>
+              <WorkContainer>
+                <Image src={bazz} alt="" />
+                <h3>Bazz ecommerce</h3>
+                <DemoContainer>
+                  <a
+                    href="https://test-ecommerce-sandy.vercel.app/"
+                    target="_blank"
+                  >
+                    <button>
+                      Demo <IoIosPlay className="arrow" />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/FranGimenez98/test-ecommerce"
+                    target="_blank"
+                  >
+                    <button>
+                      Code
+                      <IoMdCode className="arrow" />
+                    </button>
+                  </a>
+                </DemoContainer>
+              </WorkContainer>
+            </SplideSlide>
             <SplideSlide>
               <WorkContainer>
                 <Image src={vook} alt="" />
